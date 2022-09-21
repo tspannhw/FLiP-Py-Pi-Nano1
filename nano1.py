@@ -194,7 +194,7 @@ try:
 
         print(gardenRec)
 
-        # producer.send(gardenRec,partition_key=str(uniqueid))
+        producer.send(gardenRec,partition_key=str(uniqueid))
 except KeyboardInterrupt:
     pass
 
